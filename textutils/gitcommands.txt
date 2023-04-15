@@ -1,0 +1,25 @@
+git init (make repository)
+git status (check status)
+git add --a (add all changes)
+git commit -m "messag" (commit the changes)
+git log (to check last changes details)
+git clone (copy repository from website to local computer)
+git remote (to check remote repository )
+
+Permission issue:
+ssh-keygen -t rsa -b 4096 -C "bishtkrishan9@gmail.com"  (keep passphrase empty)
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+tail ~/.ssh/id_rsa.pub
+git status
+git push origin master (if nothing left to commit)
+
+
+Errors :
+error: src refspec main does not match any
+error: failed to push some refs to 'github.com:bishtKrishan/GitDemo.git'
+
+solutions:
+check status > add all commites files > git status > perform commit > push
+
+ 
